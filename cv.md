@@ -1,5 +1,7 @@
 # Dmitry Efimenko
 
+![photo](/image/IMG_0517.jpeg 'Avatar')
+
 ## Contacts
 
 -   E-mail: <i@dumkawow.ru>
@@ -16,6 +18,11 @@ At work, i conduct various kinds of projects, sometimes i act as a product manag
 I learned about RSS in the summer, i plan to defeat it the first time.
 
 ## Skills
+
+-   HTML
+-   CSS
+-   JavaScript
+-   Git
 
 ## Code exaples
 
