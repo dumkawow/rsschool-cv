@@ -49,3 +49,8 @@ Of the recent works, this is a telegram bot with openai.
     -   learn.JavaScript
 
 ## English
+
+A1-A2\
+I can read the documentation, but I have problems with building sentences.
+
+I spend at least an hour studying English every day.
