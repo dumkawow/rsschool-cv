@@ -24,7 +24,7 @@ I learned about RSS in the summer, i plan to defeat it the first time.
 -   JavaScript
 -   Git
 
-## Code exaples
+## Code examples
 
 ```
 function digitize(n) {
@@ -35,6 +35,10 @@ console.log(digitize(35231))
 ```
 
 ## Experience
+
+I have no experience in programming, but I watch a lot of YT videos from programming topics and try to delve more into javascript.
+
+Of the recent works, this is a telegram bot with openai.
 
 ## Education
 
