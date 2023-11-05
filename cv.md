@@ -26,6 +26,14 @@ I learned about RSS in the summer, i plan to defeat it the first time.
 
 ## Code exaples
 
+```
+function digitize(n) {
+   const arr = ('' + n).split('').reverse().map(Number)
+   return arr
+}
+console.log(digitize(35231))
+```
+
 ## Experience
 
 ## Education
