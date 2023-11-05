@@ -1,6 +1,6 @@
 # Dmitry Efimenko
 
-<img src="/image/IMG_0517.jpeg" alt="photo" style="height: 100px; width:100px;"/>
+<img src="./image/IMG_0517.jpeg" alt="photo" style="height: 150px; width:150px; border-radius: 15px;"/>
 
 ## Contacts
 
