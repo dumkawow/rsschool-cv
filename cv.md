@@ -12,9 +12,9 @@
 
 Hello everyone!
 
-My name is Dima, I am 28 years old and I live in Moscow 🙃
+My name is Dima, I am 28 years old and I live in Moscow 🙃\
 I got acquainted with the layout 3 years ago, since then js has been interesting.
-At work, i conduct various kinds of projects, sometimes i act as a product manager.
+At work, i conduct various kinds of projects, sometimes i act as a product manager.\
 I learned about RSS in the summer, i plan to defeat it the first time.
 
 ## Skills
