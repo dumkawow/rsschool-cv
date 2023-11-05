@@ -1,6 +1,6 @@
 # Dmitry Efimenko
 
-![photo](/image/IMG_0517.jpeg 'Avatar')
+<img src="/image/IMG_0517.jpeg" alt="photo" style="height: 100px; width:100px;"/>
 
 ## Contacts
 
