@@ -42,4 +42,10 @@ Of the recent works, this is a telegram bot with openai.
 
 ## Education
 
+-   Courses:
+    -   Udemy
+    -   Result School
+    -   Stepik
+    -   learn.JavaScript
+
 ## English
