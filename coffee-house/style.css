@@ -263,9 +263,79 @@ h2 {
 
   width: 40px;
   height: 4px;
-  
+
   border-radius: 100px;
-  background-color: var(--border-dark);
-  
+  background-color: var(--border-light);
+
   cursor: pointer;
+}
+
+.active {
+  background-color: var(--border-dark);
+}
+
+/* ABOUT */
+
+.about {
+  margin-top: 100px;
+}
+
+.about-title {
+  text-align: start;
+}
+
+.about-gallery {
+  margin-top: 40px;
+  display: flex;
+  max-width: 1360px;
+  align-items: flex-start;
+  gap: 40px;
+  align-self: stretch;
+}
+
+.about-gallery_col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.box1,
+.box4 {
+  width: 660px;
+  height: 590px;
+  border-radius: 20px;
+}
+.box2,
+.box3 {
+  width: 660px;
+  height: 430px;
+  border-radius: 20px;
+}
+
+.box1 img {
+  width: 660px;
+  height: 590px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.box2 img {
+  width: 660px;
+  height: 430px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.box3 img {
+  width: 660px;
+  height: 430px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.box4 img {
+  width: 660px;
+  height: 590px;
+  object-fit: cover;
+  border-radius: 20px;
 }
