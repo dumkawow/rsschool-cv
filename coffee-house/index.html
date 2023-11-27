@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coffee House</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicons/favicon.ico" />
     <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,7 +17,9 @@
     <header class="header">
       <nav class="nav">
         <div class="header-menu">
-          <a href="#"><img src="./images/logo.svg" alt="logo" class="logo" /></a>
+          <a href="#"
+            ><img src="./images/logo.svg" alt="logo" class="logo"
+          /></a>
           <ul class="header-menu_links">
             <li class="header-menu_link"><a href="#">Favorite coffee</a></li>
             <li class="header-menu_link"><a href="#">About</a></li>
@@ -31,7 +34,10 @@
       </nav>
       <div class="hero">
         <div class="hero-offer">
-          <h1><span>Enjoy</span> premium coffee at our charming cafe</h1>
+          <h1>
+            <span class="highlighting">Enjoy</span> premium coffee at our
+            charming cafe
+          </h1>
           <p>
             With its inviting atmosphere and delicious coffee options, the
             Coffee House Resource is a popular destination for coffee lovers and
@@ -42,5 +48,47 @@
         </div>
       </div>
     </header>
+
+    <main>
+      <section class="favorite">
+        <h2 class="favorite-title">
+          Choose your <span class="highlighting">favorite</span> coffee
+        </h2>
+        <div class="slider-wrapper">
+          <div class="slider">
+            <div class="slider-item">
+              <img
+                src="./pictures/catalog/coffee-slider-1.png"
+                alt="coffee"
+                class="slider-item_photo"
+              />
+              <h3 class="slider-item_title">S’mores Frappuccino</h3>
+              <p class="slider-item_desc">
+                This new drink takes an espresso and mixes it with brown sugar
+                and cinnamon before being topped with oat milk.
+              </p>
+              <span class="slider-item_price">$5.50</span>
+            </div>
+          </div>
+          <div class="slider-arrow">
+            <img
+              src="./images/icons/arrow-left.png"
+              alt="arrow left"
+              class="arrow-left"
+            />
+            <img
+              src="./images/icons/arrow-right.png"
+              alt="arrow right"
+              class="arrow-right"
+            />
+          </div>
+          <div class="controls">
+            <div class="control"></div>
+            <div class="control"></div>
+            <div class="control"></div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

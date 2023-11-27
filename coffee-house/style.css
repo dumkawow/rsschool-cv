@@ -32,10 +32,20 @@ h1 {
   line-height: 105%;
 }
 
-span {
+h2 {
+  color: var(--text-dark);
+  text-align: center;
+
+  font-size: 60px;
+  line-height: 125%;
+}
+
+.highlighting {
   color: var(--text-accent);
   font-style: italic;
 }
+
+/* CONTAINER */
 
 .container {
   width: 1440px;
@@ -43,6 +53,8 @@ span {
   gap: 100px;
   margin: 0 auto;
 }
+
+/* BUTTONS */
 
 .button {
   display: flex;
@@ -53,6 +65,11 @@ span {
   gap: 8px;
   border: 0;
   border-radius: 100px;
+  cursor: pointer;
+}
+
+.hero-button {
+  background: var(--background-body);
 }
 
 /* NAVIGATION */
@@ -115,6 +132,7 @@ span {
 }
 
 /* HERO BLOCK */
+
 .hero {
   display: flex;
   max-width: 1360px;
@@ -145,6 +163,109 @@ span {
   gap: 40px;
 }
 
-.hero-button {
-  background: var(--background-body);
+/* FAVORITE  */
+
+.favorite {
+  display: flex;
+  margin-top: 100px;
+  padding: 0px 40px;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+}
+
+.slider-wrapper {
+  position: relative;
+  display: flex;
+  width: 1360px;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  align-self: stretch;
+}
+
+.slider-item {
+  margin-top: 40px;
+  display: flex;
+  width: 480px;
+  max-width: 480px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.slider-item_photo {
+  width: 480px;
+  height: 480px;
+}
+
+.slider-item_title {
+  margin-top: 20px;
+
+  color: var(--text-dark);
+  text-align: center;
+
+  font-size: 24px;
+  line-height: 125%;
+}
+
+.slider-item_desc {
+  margin-top: 16px;
+  color: var(--text-dark);
+  text-align: center;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.slider-item_price {
+  margin-top: 16px;
+  color: var(--text-dark);
+  text-align: center;
+
+  font-size: 24px;
+  line-height: 125%; /* 30px */
+}
+
+.arrow-left,
+.arrow-right {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+}
+
+.arrow-left {
+  left: 0;
+  top: 50%;
+}
+
+.arrow-right {
+  right: 0;
+  top: 50%;
+}
+
+.controls {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+}
+.control {
+  display: flex;
+  margin: 0 6px;
+
+  width: 40px;
+  height: 4px;
+  
+  border-radius: 100px;
+  background-color: var(--border-dark);
+  
+  cursor: pointer;
 }
